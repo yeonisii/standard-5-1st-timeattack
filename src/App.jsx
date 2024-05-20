@@ -1,4 +1,13 @@
 export default function App() {
+  // 계산기 상태 정의
+  const [calculator, setcalculator] = useState(0);
+  const [plus, setPlus] = useState(0);
+  const [minus, setMinus] = useState(0);
+
+  // 덧셈
+
+  // 뺄셈
+
   return (
     <div>
       <h1>덧셈과 뺄셈이 가능한 앱 만들기</h1>
